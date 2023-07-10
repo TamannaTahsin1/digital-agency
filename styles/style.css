@@ -41,7 +41,7 @@
 .description{
     padding: 10px;
     color: aliceblue;
-    width: 5%;
+    width: 50%;
     margin: auto;
     text-align: center;
 }
@@ -50,7 +50,64 @@
     border: none;
     background-color: red;
     color: white;
+    border-radius: 15px;
 }
+/*service section*/
+.service-container{
+    height: 100vh;
+    background-image: url('../asset/image/footer-bg.png'),
+    linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9));
+    color: whitesmoke;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+.icon{
+    width: 70px;
+}
+.box{
+    text-align: center;
+    padding: 50px;
+    background-color: white;
+    width: 150px;
+    height: 100px;
+    color: black;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px 8px;
+}
+.service-description{
+    width: 50%;
+    padding: 10px;
+}
+.first-two-box{
+    display: flex;
+    gap: 6px;
+    margin-top: 0px;
+}
+.author-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 35px;
+}
+.author-container{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.profile-container{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    border-right: 2px solid red;
+    padding-right: 20px;
+}
+
 
 
 
